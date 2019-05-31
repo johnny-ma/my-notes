@@ -1,0 +1,20 @@
+1. Save an image into a file:
+    docker save -o file.tar <image name>
+    
+2. Load an image from a tar file:
+    docker load -i file.tar
+    
+3. Tag an existing image:
+    docker tag <image id> <URL>/<REPO>:<TAG>
+
+4. Login:
+    docker login https://<URL>
+
+5. Push:
+    docker image push <URL>/<REPO>:<TAG>
+
+6. Build:
+    docker build -t <image name> .
+
+7. Run container from image:
+    docker run --rm -p 8080:8000 <image name>
