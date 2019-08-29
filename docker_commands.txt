@@ -18,3 +18,12 @@
 
 7. Run container from image:
     docker run --rm -p 8080:8000 <image name>
+
+8. Attach to an existing container:
+    docker exec -it <container id> /bin/bash
+
+9. Save running container with changes into a new image:
+    docker commit <container id> <new image name>
+
+10. Run container with shared folder between host and container; correct permissoin set:
+    docker run --rm -p 8787:50123 -v /var/data:/var/data:Z <image name>
