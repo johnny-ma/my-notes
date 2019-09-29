@@ -1,0 +1,5 @@
+(base) johnny@Johnny-Inspiron-7548:~$ export SPARK_HOME='/home/johnny/spark-2.4.4-bin-hadoop2.7'
+(base) johnny@Johnny-Inspiron-7548:~$ export PATH=$SPARK_HOME:$PATH
+(base) johnny@Johnny-Inspiron-7548:~$ export PYTHONPATH=$SPARK_HOME/python:$PYTHONPATH
+(base) johnny@Johnny-Inspiron-7548:~$ export PYSPARK_DRIVER_PYTHON="jupyter-notebook"
+(base) johnny@Johnny-Inspiron-7548:~$ export PYSPARK_PYTHON=python
