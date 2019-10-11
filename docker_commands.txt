@@ -27,3 +27,4 @@
 
 10. Run container with shared folder between host and container; correct permissoin set:
     docker run --rm -p 8787:50123 -v /var/data:/var/data:Z <image name>
+    docker run --rm -p 50223:50223 -v /home/ec2-user/SageMaker/var/data:/opt/ml/model:Z <image name> serve
