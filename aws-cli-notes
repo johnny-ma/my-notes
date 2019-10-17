@@ -1,0 +1,3 @@
+1. apply for token:
+  aws sts get-session-token --duration-seconds 129600 --serial-number arn:aws:iam::<account number>:mfa/<user id> --token-code <token>
+
