@@ -1,0 +1,5 @@
+1. Filter with condition
+    TEST = TEST[TEST['COLNAME'] != 'TEST_VALUE']
+
+2. Drop column(s)
+    TEST.drop(columns=['COLNAME1', 'COLNAME2'], inplace=True)
