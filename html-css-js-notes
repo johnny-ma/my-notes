@@ -1,0 +1,17 @@
+HTML tags you shall remember:
+    1. <html> : most outside tag
+    2. <head> : head
+    3. <title> : head title
+    4. <body> : body wrapper
+    5. <h1> - <h6> : header
+    6. <strong> : bold
+    7. <em> : italid
+    8. <p> : paragraph
+    9. <ol> : ordered list
+    10. <ul> : unordered list
+    11. <li> : list items in ol or ul
+    12. <br> : line break; self closing tag
+    13. <hr> : horizonal line break; self closing tag
+    14. <img> : image; self closing tag
+    15. <a> : anchor tag; eg. <a href="">New Page</a>
+    
