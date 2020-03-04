@@ -14,4 +14,6 @@ HTML tags you shall remember:
     13. <hr> : horizonal line break; self closing tag
     14. <img> : image; self closing tag
     15. <a> : anchor tag; eg. <a href="">New Page</a>
+    16. <form> : form tag
+    17. <input> : self closing tag
     
