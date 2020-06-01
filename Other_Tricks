@@ -1,0 +1,2 @@
+MLflow:
+     mlflow server --backend-store-uri /home/ec2-user/mlflow-backend-store/ --default-artifact-root s3://myprefix/ --host 0.0.0.0 --port 8787
