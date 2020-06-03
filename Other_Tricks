@@ -1,5 +1,18 @@
 MLflow:
-    mlflow server --backend-store-uri /home/ec2-user/mlflow-backend-store/ --default-artifact-root s3://myprefix/ --host 0.0.0.0 --port 8787
+    Start server:
+        mlflow server --backend-store-uri /home/ec2-user/mlflow-backend-store/ --default-artifact-root s3://myprefix/ --host 0.0.0.0 --port 8787
+
+Airflow:
+    Kill processes:
+        cat ~/airflow/airflow-webserver.pid | xargs kill -9
+    Reset db: (Don't forget to re-add connections after)
+        airflow resetdb
+    Start server:
+        airflow webserver -p 8787 -D
+    Start scheduler:
+        airflow scheduler &
 
 PostgreSQL:
-    su - postgres | /usr/local/pgsql/bin/pg_ctl -D /usr/local/pgsql/data -l logfile start
+    Start server:
+        su - postgres | /usr/local/pgsql/bin/pg_ctl -D /usr/local/pgsql/data -l logfile start
+
