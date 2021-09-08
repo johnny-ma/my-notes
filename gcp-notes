@@ -1,6 +1,7 @@
 GKE:
 
     gcloud config set project my-kubernetes-project-304910
+    gcloud container clusters create .......
     gcloud container clusters get-credentials my-cluster --zone us-central1-c --project my-kubernetes-project-304910
     kubectl create deployment hello-world-rest-api --image=in28min/hello-world-rest-api:0.0.1.RELEASE
     kubectl get deployment
