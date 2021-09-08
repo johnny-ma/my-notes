@@ -13,6 +13,7 @@ GKE:
     gcloud container clusters resize my-cluster --node-pool default-pool --num-nodes=2 --zone=us-central1-c
     kubectl autoscale deployment hello-world-rest-api --max=4 --cpu-percent=70
     kubectl get hpa
+    gcloud container clusters update my-cluster --enable-autoscaling --min-nodes=1 --max-nodes=10
     kubectl create configmap hello-world-config --from-literal=RDS_DB_NAME=todos
     kubectl get configmap
     kubectl describe configmap hello-world-config
